@@ -1,11 +1,11 @@
 open Printf
 
-type ast =
+type sexp =
   | Int of int
   | Bool of bool
   | Nil
   | Id of string
-  | Sexp of ast list
+  | Sexp of sexp list
 
 
 let rec to_s =  function

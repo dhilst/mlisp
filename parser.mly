@@ -6,7 +6,7 @@
 %token LPAR
 %token RPAR
 %token <string> ID
-%start <Syntax.ast> main
+%start <Syntax.sexp> main
 %{ open Syntax %}
 
 %%
